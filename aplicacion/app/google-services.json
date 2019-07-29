@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "548903363293",
+    "firebase_url": "https://prototipo3last.firebaseio.com",
+    "project_id": "prototipo3last",
+    "storage_bucket": "prototipo3last.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548903363293:android:e81a78e1b886ed66",
+        "android_client_info": {
+          "package_name": "agustin.prototipoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548903363293-o14fqj8s9l6r4ol8k2s9ujbf54ql8or2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnMnZFLlJLYzZ-sXkZxDEXv1MNH_sl0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

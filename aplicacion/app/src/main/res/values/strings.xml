@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">CENT35 Móvil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Títulos de Menú / Menu titles -->
+    <string name="titulo_inicio">CENT 35</string>
+    <string name="subtitulo_inicio">PROF. JULIÁN JOSÉ GODOY</string>
+    <string name="titulo_ingresantes">Ingresantes</string>
+    <string name="titulo_calendario">Calendario Académico</string>
+    <string name="titulo_cartelera">Cartelera</string>
+    <string name="titulo_alumnos">Alumnos</string>
+
+    <!-- Meses / Months -->
+    <string name="mes_1">ENERO</string>
+    <string name="mes_2">FEBRERO</string>
+    <string name="mes_3">MARZO</string>
+    <string name="mes_4">ABRIL</string>
+    <string name="mes_5">MAYO</string>
+    <string name="mes_6">JUNIO</string>
+    <string name="mes_7">JULIO</string>
+    <string name="mes_8">AGOSTO</string>
+    <string name="mes_9">SEPTIEMBRE</string>
+    <string name="mes_10">OCTUBRE</string>
+    <string name="mes_11">NOVIEMBRE</string>
+    <string name="mes_12">DICIEMBRE</string>
+
+    <!-- Dialog inscripción mesa -->
+    <string name="dialog_inscripcion_mesa_antes">Antes de inscribirse a un final recuerde que:</string>
+    <string name="dialog_inscripcion_mesa_item1">*   Una vez registrado en el sistema no se permite borrar su inscripción</string>
+    <string name="dialog_inscripcion_mesa_item2">*   En caso de ausentarse el día del examen se perdería una oportunidad (de las 3 en total) para rendir su final</string>
+    <string name="dialog_inscripcion_mesa_item3">*   Se debe acudir OBLIGATORIAMENTE con libreta de alumno</string>
+    <string name="dialog_inscripcion_mesa_item4">*   TODOS los finales se rinden en la sede principal a las 19.30</string>
+    <string name="dialog_inscripcion_mesa_confirmar">Para confirmar:</string>
+    <string name="dialog_inscripcion_mesa_ingrese_pass">Ingrese contraseña</string>
+
+    <!-- Ultimo y primer més / Last and firts month -->
+    <string name="primer_mes">ENERO 2017</string>
+    <string name="ultimo_mes">DICIEMBRE 2020</string>
+
+    <!-- Texto de Toast / Toast text -->
+    <string name="toast_json_error">Hubo problemas al leer JSON, intente más tarde.</string>
+    <string name="toast_no_internet">No cuenta con conexión activa a internet. Conéctese a internet y reintentelo nuevamente</string>
+    <string name="toast_no_conexion_server">Hubo un error con la comunicación al servidor. Intentaremos repararlo, le pedimos que lo intente más tarde</string>
+    <string name="toast_no_app">Aplicación no instalada, abriendo mediante el navegador predeterminado</string>
+
+    <!-- Inicio -->
+    <string name="inicio_version">Versión Beta</string>
+    <string name="inicio_intro">Instituto de Educación Superior perteneciente al Ministerio de Educación de la Provincia de Tierra del Fuego. Desde 1988 brinda múltiples ofertas académicas de Nivel Superior.</string>
+
+    <!-- error en validaciones -->
+    <string name="validacion_legajo_vacio">El legajo está vacío. Por favor, ingrese su legajo</string>
+    <string name="validacion_pass_vacio">Por favor, ingrese su contraseña</string>
+
+    <!-- inicio de sesión / cargando -->
+    <string name="cargando_titulo">Verificando credenciales</string>
+    <string name="cargando_mensaje">Por favor, espere mientras corroboramos los datos</string>
+    <string name="cargando_insc_materia">Por favor, espere mientras se realiza la inscripción</string>
+    <string name="iniciar_sesion_help">¿No está registrado?, ¿Olvidó su contraseña? Si es alumno de la institución haga clic acá para obtener instrucciones</string>
+
+    <!-- inscripcion materias -->
+    <string name="insc_materias_success">Va a inscribirse en las siguientes materias</string>
+    <string name="insc_materias_fail">No tiene materias disponibles para inscribirse</string>
+
+    <!-- inscripcion finales -->
+    <string name="primer_anio">PRIMER AÑO</string>
+    <string name="segundo_anio">SEGUNDO AÑO</string>
+    <string name="tercer_anio">TERCER AÑO</string>
+    <string name="libre">LIBRE</string>
+    <string name="primer_llamado">1° LLAMADO</string>
+    <string name="segundo_llamado">2° LLAMADO</string>
+    <string name="insc_finales_mesa_cerrada">INSCRIPCIÓN CERRADA</string>
+    <string name="insc_finales_mesa_abierta">INSCRIPCIÓN ABIERTA</string>
+    <string name="insc_finales_vacio">No tiene finales disponibles para inscribirse</string>
+    <string name="insc_finales_mesa_cerrada_toast">No puede inscribirse. La mesa está cerrada</string>
+    <string name="boton_finales_inscripto">¿A qué finales estoy inscripto?</string>
+
+    <!-- final anotado -->
+    <string name="anota_fin_success">Los finales en los que estás inscripto para rendir son los siguientes</string>
+    <string name="anota_fin_fail">Actualmente no está inscripto en ninguna mesa</string>
+
+    <!-- Popup's -->
+    <string name="positive_popup_title_default">¡Inscripción satisfactoria!</string>
+    <string name="positive_popup_text_default">Ya está inscripto, sin embargo, la inscripción puede demorar en cargarse por completo. Recuerde verificar constantemente el apartado de "¿A qué finales estoy inscripto?"</string>
+    <string name="negative_popup_title_default">No se pudo realizar la inscripción</string>
+    <string name="negative_popup_text_default">Motivo: Contraseña Incorrecta</string>
+    <string name="positive_popup_text_insc_materias">Ya está inscripto, sin embargo, la inscripción puede demorar en cargarse por completo. Recuerde verificar constantemente"</string>
+
+    <string name="help_popup_title_default">Ayuda</string>
+    <string name="help_popup_question_one">¿Qué puedo hacer con mi usuario en la app?</string>
+    <string name="help_popup_answer_one">Al ingresar con su usuario podrá desde la aplicación ver su perfil de alumno, calificaciones y estados de finales. También podrá inscribirse a exámenes finales y a materias a cursar desde la app.</string>
+    <string name="help_popup_question_two">¿Cómo creo mi usuario?</string>
+    <string name="help_popup_answer_two">Debe acercarse al departamento de alumnos en cualquier sede del C.E.N.T. 35 con su libreta de alumno para que se le pueda habilitar su legajo como usuario, se le generará una contraseña con la que podrá ingresar. Posteriormente, la aplicación le solicitará cambiar dicha contraseña por una nueva de su gusto.</string>
+    <string name="help_popup_question_three">Olvidé mi contraseña ¿Qué hago?</string>
+    <string name="help_popup_answer_three">Deberá acercarse al departamento de alumnos para que se le pueda generar una nueva contraseña y así poder ingresar nuevamente. Luego deberá cambiarla una vez ingresada.</string>
+
+    <string name="registro_info">Por motivos de seguridad y comodidad le solicitamos que cambie su contraseña actual por una nueva</string>
+
+    <!-- errores -->
+    <string name="error_sin_internet">Error en la red, intente más tarde.</string>
+    <string name="error_login">Error al comprobar información, verifique su red móvil</string>
+    <string name="error_sin_internet_login">¡Necesita conexión a internet para iniciar sesión!</string>
+    <string name="sin_anuncios">Actualmente no hay anuncios</string>
+    <string name="sin_datos">NO HAY DATOS.</string>
+    <string name="pass_incorrecta">Contraseña incorrecta</string>
+
+    <string name="cerrar_boton">CERRAR</string>
+    <string name="inscribirse_boton">INSCRIBIRSE</string>
+
+</resources>

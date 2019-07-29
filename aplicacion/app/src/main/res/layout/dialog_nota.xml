@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtCodMat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="CODIGO MATERIA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNomMat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:text="NOMBRE MATERIA"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTipoMat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="TIPO MATERIA Y AÑO DE CARRERA" />
+
+    <TextView
+        android:id="@+id/txtEstadoMateria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="ESTADO: APROBADA CON 6" />
+
+    <TextView
+        android:id="@+id/txtFinalVence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="FINAL VENCE EL: " />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="Rendida el 02/12/2016 nota 4" />
+
+    <TextView
+        android:id="@+id/txtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="Rendida el 02/12/2016 nota 4" />
+
+    <TextView
+        android:id="@+id/txtNota3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Rendida el 02/12/2016 nota 4" />
+
+</LinearLayout>

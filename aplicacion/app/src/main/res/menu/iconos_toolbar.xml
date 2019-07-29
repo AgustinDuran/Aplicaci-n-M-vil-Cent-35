@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Íconos de uso libre, generados en
+ https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
+  otra web : https://iconos8.es -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemInicio"
+            android:icon="@mipmap/inicio"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/itemIngresantes"
+            android:icon="@mipmap/ingresantes"
+            android:title="Ingresantes" />
+
+        <item
+            android:id="@+id/itemAlumnos"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@mipmap/alumnos"
+            android:title="Alumnos" />
+
+        <item
+            android:id="@+id/itemCalendario"
+            android:icon="@mipmap/calendario"
+            android:title="Calendario Académico" />
+
+        <item
+            android:id="@+id/itemCartelera"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@mipmap/cartelera"
+            android:title="Cartelera" />
+    </group>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/itemWeb"
+                android:icon="@mipmap/web"
+                android:title="Página Web" />
+            <item
+                android:id="@+id/itemFacebook"
+                android:icon="@mipmap/facebook"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>

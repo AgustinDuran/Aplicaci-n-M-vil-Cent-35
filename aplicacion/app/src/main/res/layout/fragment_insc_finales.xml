@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Animacion lottie:
+ https://www.youtube.com/watch?v=ZBhgNH5Cwp4&list=WL -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.menuAlumno.InscFinalesFragment">
+
+    <TextView
+        android:id="@+id/txtNoFinales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="50dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="@string/insc_finales_vacio"
+        android:visibility="invisible"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/prgrssBrMesas"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="133dp"
+            android:layout_height="123dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMesasInscFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="Mesas de Marzo"
+            android:visibility="invisible"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lstVwMesas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:dividerHeight="2dp" />
+
+        <Button
+            android:id="@+id/btnFinalAnotado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/custom_button"
+            android:foregroundGravity="center"
+            android:visibility="invisible"
+            android:text="@string/boton_finales_inscripto"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagenRepInscFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reparacion"
+        android:visibility="invisible" />
+
+</FrameLayout>
