@@ -29,6 +29,8 @@ import retrofit2.http.Query;
  * https://www.beeva.com/beeva-view/desarrollo/retrofit-una-libreria-para-desarrollo-android-y-java/
  * https://stackoverflow.com/questions/36730086/retrofit-2-url-query-parameter
  *
+ * TODO Se puede agregar el campo pass en todos los GET para hacer más seguro el sistema y no se pueda ingresar
+ * a los datos de un alumno con solo usar la url y el legajo a mano.
  */
 public interface ServicioJson {
 
