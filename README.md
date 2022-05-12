@@ -5,7 +5,7 @@
 La siguiente aplicación fue realizada con el fin de obtener el título como Tecnico Superior en Desarrollo de Software.
 
 La documentación de todo lo realizado se encuentra en el siguiente repositorio
-https://github.com/AgustinDuran/Aplicacion-Web-Cent-35
+https://github.com/agustinduran/aplicacion-web-institucion-terciaria
 
 El sistema en su totalidad fue desarrollado por Agustín Durán, Facundo Gómez y Ezequiel Rosso.
 
